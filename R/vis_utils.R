@@ -54,7 +54,7 @@ ppreview <- function(
             new_size <- readline("Please enter new width and height separated by '/':")
             new_size <- as.numeric(strsplit(new_size, split = "/", fixed = TRUE)[[1]])
             if (any(is.na(new_size)) || length(new_size) != 2 || any(new_size <= 0)) {
-                warning("The input length is not equal to 2 or the input contains non-numeric characters or negative numbers.")
+                message("The input length is not equal to 2 or the input contains non-numeric characters or negative numbers.")
             } else {
                 width <- new_size[1]
                 height <- new_size[2]
