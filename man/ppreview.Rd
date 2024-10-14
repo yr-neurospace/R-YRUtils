@@ -27,8 +27,10 @@ inferred from the file extension.
 \dontrun{
 library(ggplot2)
 
-df <- data.frame(x = rnorm(100),
-                 y = rnorm(100))
+df <- data.frame(
+    x = rnorm(100),
+    y = rnorm(100)
+)
 
 p <- ggplot(df, aes(x, y)) +
     geom_point()

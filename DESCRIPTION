@@ -12,4 +12,6 @@ RoxygenNote: 7.3.2
 Imports: 
     grid,
     png,
+    showtext,
+    sysfonts,
     unigd

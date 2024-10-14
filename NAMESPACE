@@ -2,3 +2,4 @@
 
 export(echo_vec)
 export(ppreview)
+export(set_fonts)
