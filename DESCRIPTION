@@ -1,0 +1,24 @@
+Package: YRUtils
+Title: A Collection of Practical Functions Commonly Used in Daily Work
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rui", "Yang", , "nuerospace@petalmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-4884-9933"))
+Description: A collection of practical functions commonly used in daily work.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    grid,
+    magrittr,
+    png,
+    rtracklayer,
+    showtext,
+    stats,
+    stringr,
+    sysfonts,
+    tibble,
+    tidyr,
+    unigd
